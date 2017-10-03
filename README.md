@@ -15,3 +15,24 @@ so you can simply change it to any version you want.
 
 this package build from source , so you can any version which you need and,
 you don't have to just select among your linux distribution available packages .
+
+
+## Install lua modules (packages)
+
+by running following command you can install lua plugin in container
+
+```
+docker-compose exec lua_server install-module <module-name>
+```
+
+for example for installing kong module :
+
+```
+docker-compose exec lua_server install-module kong
+```
+
+## Pre Installed lua modules
+
+also in your dockerfile there is environment variable called "needed_modules"
+you can list all needed modules for your lua runtime, so by running container from your image
+all modules already are in container.
