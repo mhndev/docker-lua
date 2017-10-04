@@ -9,6 +9,16 @@
 ## Default luarocks version : 2.4.1
 
 
+## get this image
+
+you can execute following command to get this docker image :
+
+```
+docker pull mhndev/docker-lua
+```
+
+## About Dockerfile
+
 if you look at dockerfile you can see that 
 lua version and luarocks version are as environment variable
 so you can simply change it to any version you want.
