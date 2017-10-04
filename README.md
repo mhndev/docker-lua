@@ -2,9 +2,9 @@
 
 ## Includes 
 
-1 ) lua (https://www.lua.org/)
+1) lua (https://www.lua.org/)
 
-2 ) luarocks (https://www.luarocks.org/)(Lua package manager)
+2) luarocks (https://www.luarocks.org/) (Lua package manager)
 
 3) pre installed lua modules kong , lua-cjson (which you can add other modules or delete existing)
 
