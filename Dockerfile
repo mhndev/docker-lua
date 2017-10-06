@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER Majid Abdolhosseini <majid@mhndev.com>
+LABEL maintainer="Majid Abdolhosseini <majid@mhndev.com>"
 
 ENV lua_verision  5.3.4
 ENV luarocks_version 2.4.1
